@@ -6,6 +6,15 @@
     font-family: 'Roboto', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
+.section-title{
+    color:  #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.gray-text{
+    color: #727272;
+}
 /* header style */
 .btn-primary{
     border-radius: 8px;
@@ -26,11 +35,7 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.nav-title{
-    color:  #131313;
-    font-size: 2.8rem;
-    font-weight: 700;
-}
+
 nav>ul{
     display: flex;
 }
@@ -105,6 +110,31 @@ main{
     font-size: 20px;
     font-weight: 400;
     padding-bottom: 25px;
+}
+
+.fact-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.fact-card-container .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+}
+
+.fact-card-container .card-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #727272;
+    margin-top: 5px;
+    
+}
+.fact-card-container .card-stat{
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* Responsive style */
